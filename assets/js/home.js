@@ -165,36 +165,33 @@ $(window).resize(function () {
 
 
 
-  $('.resources-carousel').owlCarousel({
-      loop:false,
-      margin: 30,
-      items: 3.2,
-      stagePadding: 120,
-      //center: true,        
-      autoplay: true,
-    autoplayTimeout:10000,
-	autoplaySpeed: 4500,
-    autoplayHoverPause:true,
-      dots: false,
-      nav: false,
-      responsive:{
-        0:{
-          stagePadding: 20,
-          items: 1.1,
+ $('.resources-carousel').owlCarousel({
+    loop: true, // IMPORTANT FIX
+    margin: 15,
+    items: 3,
+    stagePadding: 100,
+    autoplay: true,
+    autoplayTimeout: 10000,
+    autoplaySpeed: 4500,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1,
+            stagePadding: 30,
+            margin: 20
         },
-        768:{
-          stagePadding: 30,
-          items: 2.2
+        768: {
+            items: 2.2,
+            stagePadding: 30
         },
-        1200:{
-          stagePadding: 40,
-        },
-		1700:{
-          stagePadding: 40,
+        1200: {
+            items: 3.2,
+            stagePadding: 40
         }
-      }
-  });
-
+    }
+});
 
 
 

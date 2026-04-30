@@ -1,0 +1,36 @@
+# Conversive — Care Conversations AI Platform
+> Conversive is a leading Care Conversations AI platform that helps healthcare providers deliver 24/7 patient engagement, reduce no-shows, streamline intake, and maintain HIPAA-compliant communication across SMS, WhatsApp, voice, and email.
+
+## Key Pages
+- [Home](https://conversive.ai/): Overview of Conversive's AI-powered patient engagement platform
+- [Book a Demo](https://conversive.ai/demo.html): Schedule a personalized demo session
+- [Blogs](https://conversive.ai/blogs.html): Healthcare AI, journey orchestration, and patient communication insights
+
+## Blog Articles
+- [The Future of Patient Communication in Clinical Environments](https://conversive.ai/future-of-patient-communication-in-clinical-environment.html): How Conversive helps bridge language, cultural, and infrastructure gaps in healthcare messaging
+- [Journey Builder Guide: Building Effective Customer Journeys in 2026](https://conversive.ai/journey-builder-guide.html): Strategic guide to designing human-centered customer journeys with AI
+- [How Journey Orchestration Transforms Real-Time Customer Experience](https://conversive.ai/journey-orchestration-transforms-real-time-customer-experience.html): Deep dive into real-time journey orchestration across omnichannel systems
+- [Voice-First Is No Longer Optional. It's Structural.](https://conversive.ai/voice-first-is-no-longer-optional-it%27s-structural.html): Why voice-first conversational AI is becoming core infrastructure
+
+## Product Capabilities
+- 24/7 Digital Front Desk — AI agents handling patient inquiries round the clock
+- Appointment Booking & Reminders — Direct EHR-integrated scheduling with automated reminders
+- No-Show Handling — Re-engagement workflows for missed appointments
+- Patient Intake — Secure pre-visit data collection via SMS/WhatsApp
+- Ongoing Care & Follow-up — Post-visit guidance and check-in sequences
+- Reviews & Feedback — Automated patient satisfaction workflows
+- HIPAA / HITECH compliance — End-to-end encryption, audit logs, consent tracking
+
+## Company
+- Website: https://conversive.ai
+- Platform: https://app.beconversive.com
+- LinkedIn: https://www.linkedin.com/company/screen-magic-media/
+- Contact US: +1-888-568-1315
+- Contact UK: 0-808-189-1305
+- Contact AUS: 1-800-823-175
+- Contact IND: 9240915633
+
+## Optional
+- [Privacy Policy](https://conversive.ai/privacy-policy.html)
+- [Terms & Conditions](https://conversive.ai/terms-%26-conditions.html)
+- [Cookie Policy](https://conversive.ai/cookie-policy.html)

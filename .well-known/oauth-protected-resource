@@ -1,0 +1,8 @@
+{
+  "resource": "https://conversive.ai",
+  "authorization_servers": ["https://conversive.ai"],
+  "scopes_supported": ["openid", "profile", "email"],
+  "bearer_methods_supported": ["header"],
+  "resource_documentation": "https://conversive.ai/llms.txt",
+  "resource_name": "Conversive Care Conversations Platform"
+}

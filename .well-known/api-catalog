@@ -1,0 +1,43 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://conversive.ai/",
+      "service-doc": [
+        {
+          "href": "https://conversive.ai/",
+          "type": "text/html"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://conversive.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "item": [
+        {
+          "href": "https://conversive.ai/blogs.html",
+          "type": "text/html"
+        },
+        {
+          "href": "https://conversive.ai/demo.html",
+          "type": "text/html"
+        }
+      ]
+    },
+    {
+      "anchor": "https://app.beconversive.com/",
+      "service-doc": [
+        {
+          "href": "https://conversive.ai/",
+          "type": "text/html"
+        }
+      ],
+      "type": [
+        {
+          "href": "https://schema.org/SoftwareApplication"
+        }
+      ]
+    }
+  ]
+}

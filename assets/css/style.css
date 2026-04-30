@@ -2886,6 +2886,21 @@ border-left: 4px solid #2037E1;
     object-fit: contain;
 }
 
+/* Model Popup - Start */
+.resources-modal .modal__body h2{font-size: 30px;}
+.resources-modal .modal__panel {
+  background: #fff;
+  width: 90%;
+  height: min(370px, 50vh);
+  max-width: 550px;
+  max-height: 70vh;
+  overflow-y: auto;
+
+  border-radius: 8px;
+  padding: 20px;
+}
+/* Model Popup - End */
+
 @media (min-width:1700px){
   .product-sec .tab {
     min-width: 10.1%;
@@ -2897,7 +2912,7 @@ border-left: 4px solid #2037E1;
 
 @media (max-width:1024px) {
   .product-card .conversive-content {
-    padding: 0px 30px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .product-sec .tab span {
     max-width: 134px;
@@ -2994,9 +3009,26 @@ border-left: 4px solid #2037E1;
   margin-top: 40px;
 }
 
+#resources .card-content p{
+      padding-left: 0px;
+    padding-right: 0px;
+}
+
 @media (min-width:1200px){
   .no-js .owl-carousel.enterprise-card-wrapper{
     display: grid;
+}
+}
+
+
+
+@media (min-width:1700px){
+  .card-content h3 {
+    min-height: 46px;
+}
+
+.card-image {
+    height: 280px;
 }
 }
 
@@ -3196,7 +3228,25 @@ border-left: 4px solid #2037E1;
   display: none;
 }
 
+img.m-mobile{
+  display: none !important;
+}
+
+@media (min-width:768px) and (max-width:1199px){
+  #tabs-wrapper-vertical .patient-tabcontent {
+    padding-top: 0px;
+}
+}
+
 @media (max-width: 767px){
+
+  img.f-desk{
+  display: none !important;
+}
+img.m-mobile{
+  display: block !important;
+}
+
    .copyright-bar {
   padding-left: 0px;
   }
@@ -3632,6 +3682,31 @@ h2 {
 }
 .conversive-card {
     min-height: 570px;
+}
+.patient-enquary {
+    margin-top: 0px;
+}
+
+#resources .card-content h3 {
+    min-height: 65px;
+    margin-bottom: 9px;
+}
+#resources .card-image {
+    height: 150px;
+}
+
+.testimonial-wrapper {
+    padding-bottom: 20px;
+}
+#practices .section-sub-heading {
+    padding-bottom: 0;
+}
+.product-sec {
+    padding: 58px 0 0px;
+}
+
+.mobenq {
+  margin-top: 70px;
 }
 
 }
