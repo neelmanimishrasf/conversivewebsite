@@ -12,13 +12,6 @@
     Cache-Control = "public, max-age=86400"
 
 [[headers]]
-  for = "/.well-known/oauth-protected-resource"
-  [headers.values]
-    Content-Type = "application/json; charset=utf-8"
-    Access-Control-Allow-Origin = "*"
-    Cache-Control = "public, max-age=86400"
-
-[[headers]]
   for = "/.well-known/openid-configuration"
   [headers.values]
     Content-Type = "application/json; charset=utf-8"
@@ -54,3 +47,7 @@
 [[edge_functions]]
   path = "/index.md"
   function = "markdown-negotiation"
+
+[[edge_functions]]
+  path = "/.well-known/oauth-protected-resource"
+  function = "oauth-protected-resource"
