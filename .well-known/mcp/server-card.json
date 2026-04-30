@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "serverInfo": {
+    "name": "Conversive",
+    "version": "1.0.0",
+    "description": "Conversive Care Conversations AI Platform — delivering 24/7 patient engagement via SMS, WhatsApp, voice, and email."
+  },
+  "homepage": "https://conversive.ai",
+  "transport": {
+    "type": "http",
+    "url": "https://app.beconversive.com"
+  },
+  "capabilities": {
+    "tools": false,
+    "resources": true,
+    "prompts": false
+  },
+  "resources": [
+    {
+      "name": "Platform Overview",
+      "uri": "https://conversive.ai/",
+      "description": "Main website describing Conversive's AI patient engagement capabilities"
+    },
+    {
+      "name": "Blog",
+      "uri": "https://conversive.ai/blogs.html",
+      "description": "Healthcare AI insights and guides"
+    },
+    {
+      "name": "LLMs Reference",
+      "uri": "https://conversive.ai/llms.txt",
+      "description": "Machine-readable summary of Conversive for AI agents"
+    }
+  ],
+  "contact": {
+    "us": "+1-888-568-1315",
+    "uk": "0-808-189-1305",
+    "au": "1-800-823-175",
+    "in": "9240915633"
+  }
+}

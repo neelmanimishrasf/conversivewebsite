@@ -2,6 +2,11 @@ User-agent: *
 Allow: /
 Disallow: /assets/
 
+# Content Signals — AI content usage preferences
+# https://contentsignals.org/
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+
 # Sitemap
 Sitemap: https://conversive.ai/sitemap.xml
 
