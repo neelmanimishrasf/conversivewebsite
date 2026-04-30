@@ -1,41 +1,58 @@
 {
-  "schema_version": "1.0",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
   "serverInfo": {
-    "name": "Conversive",
-    "version": "1.0.0",
-    "description": "Conversive Care Conversations AI Platform — delivering 24/7 patient engagement via SMS, WhatsApp, voice, and email."
+    "name": "conversive-platform",
+    "title": "Conversive Care Conversations Platform",
+    "version": "1.0.0"
   },
+  "description": "AI-powered patient engagement platform delivering 24/7 care conversations across SMS, WhatsApp, voice, and email.",
   "homepage": "https://conversive.ai",
   "transport": {
-    "type": "http",
-    "url": "https://app.beconversive.com"
+    "type": "streamable-http",
+    "endpoint": "https://app.beconversive.com/mcp"
+  },
+  "authentication": {
+    "required": false
   },
   "capabilities": {
-    "tools": false,
+    "tools": true,
     "resources": true,
     "prompts": false
   },
+  "tools": [
+    {
+      "name": "book_demo",
+      "title": "Book a Demo",
+      "description": "Schedule a personalized demo of the Conversive AI patient engagement platform",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_platform_summary",
+      "title": "Get Platform Summary",
+      "description": "Retrieve a machine-readable summary of Conversive for AI agents",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  ],
   "resources": [
     {
       "name": "Platform Overview",
-      "uri": "https://conversive.ai/",
-      "description": "Main website describing Conversive's AI patient engagement capabilities"
+      "uri": "https://conversive.ai/llms.txt",
+      "description": "Machine-readable site summary for AI agents"
     },
     {
       "name": "Blog",
       "uri": "https://conversive.ai/blogs.html",
       "description": "Healthcare AI insights and guides"
-    },
-    {
-      "name": "LLMs Reference",
-      "uri": "https://conversive.ai/llms.txt",
-      "description": "Machine-readable summary of Conversive for AI agents"
     }
-  ],
-  "contact": {
-    "us": "+1-888-568-1315",
-    "uk": "0-808-189-1305",
-    "au": "1-800-823-175",
-    "in": "9240915633"
-  }
+  ]
 }
