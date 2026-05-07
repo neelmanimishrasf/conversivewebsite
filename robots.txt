@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+# Content Signals — AI content usage preferences
+# https://contentsignals.org/
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+
+# Sitemap
+Sitemap: https://conversive.ai/sitemap.xml
+
+# AI / LLM Crawler rules
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "skills": [
+    {
+      "name": "book-demo",
+      "type": "http",
+      "description": "Schedule a personalized demo of Conversive AI patient engagement platform",
+      "url": "https://conversive.ai/demo.html",
+      "digest": "sha256-gZO6z4asFHdEpmSgGxAZ7lEYpXA4FDuD1IONhh/V7AQ="
+    },
+    {
+      "name": "browse-blog",
+      "type": "http",
+      "description": "Read healthcare AI insights and guides from the Conversive blog",
+      "url": "https://conversive.ai/blogs.html",
+      "digest": "sha256-SqXPJ3YrMamHQw5Qe7ZZL8Abz2Ie3ObnptnvQ8m+d4A="
+    },
+    {
+      "name": "get-llms-context",
+      "type": "http",
+      "description": "Retrieve a machine-readable summary of Conversive for AI agents",
+      "url": "https://conversive.ai/llms.txt",
+      "digest": "sha256-PJ32cAiKSqwMSmEP1bDdDI3iBVP7Js6zz16oMdoxxO4="
+    }
+  ]
+}
