@@ -107,9 +107,9 @@ $siteUrl = Env::get('APP_URL');
                   <li>
                     <a href="tel:1800823175">AUS: <strong>1-800-823-175 </strong></a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="tel:9240915633">IND: <strong> 9240915633 </strong></a>
-                  </li>
+                  </li> -->
                 </ul>
               </li>
 
