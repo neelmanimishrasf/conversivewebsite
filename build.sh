@@ -20,12 +20,17 @@ echo "⚙️  Writing .env..."
 # DEPLOY_URL = the specific deploy URL (e.g. https://develop--jolly-blini-dd34da.netlify.app)
 # URL         = the primary site URL (https://conversive.ai)
 
-if [ -n "$DEPLOY_PRIME_URL" ]; then
+# Netlify context-aware URL resolution:
+#   CONTEXT = "production"    → main branch → use URL (custom domain)
+#   CONTEXT = "branch-deploy" → develop etc → use DEPLOY_PRIME_URL (branch subdomain)
+#   CONTEXT = "deploy-preview"→ PR previews → use DEPLOY_PRIME_URL
+
+if [ "$CONTEXT" = "production" ]; then
+    APP_URL="${URL:-https://conversive.ai}"
+elif [ -n "$DEPLOY_PRIME_URL" ]; then
     APP_URL="$DEPLOY_PRIME_URL"
-elif [ -n "$URL" ]; then
-    APP_URL="$URL"
 else
-    APP_URL="https://conversive.ai"
+    APP_URL="${URL:-https://conversive.ai}"
 fi
 
 cat > .env <<EOF
