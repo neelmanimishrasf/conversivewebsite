@@ -1,0 +1,31 @@
+RewriteEngine On
+# RewriteBase /conversive-staging/
+# RewriteBase /bm/conversive/
+RewriteBase /
+
+# 1. Redirect .html OR .php → clean URL
+# RewriteCond %{THE_REQUEST} \s/conversive-staging/([^.]+)\.(html|php)[\s?] [NC]
+# RewriteCond %{THE_REQUEST} \s/bm/conversive/([^.]+)\.(html|php)[\s?] [NC]
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.(html|php)[\s?] [NC]
+RewriteRule ^ %1 [L,R=301]
+
+# 2. Blog URL → actual file (FIXED)
+# RewriteCond %{DOCUMENT_ROOT}/conversive-staging/$1.html -f
+# RewriteCond %{DOCUMENT_ROOT}/bm/conversive/$1.html -f
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^blog/([a-zA-Z0-9-]+)/?$ $1.html [L]
+
+# RewriteCond %{DOCUMENT_ROOT}/conversive-staging/$1.php -f
+# RewriteCond %{DOCUMENT_ROOT}/bm/conversive/$1.php -f
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^blog/([a-zA-Z0-9-]+)/?$ $1.php [L]
+
+# 3. Clean URL → serve .html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+# 4. Clean URL → serve .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]

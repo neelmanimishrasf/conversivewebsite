@@ -1,0 +1,20 @@
+# Generated HTML files (produced by build.sh at Netlify build time)
+# Do NOT commit these — Netlify generates them from .php sources
+index.html
+blogs.html
+cookie-policy.html
+privacy-policy.html
+terms-&-conditions.html
+future-of-patient-communication-in-clinical-environment.html
+journey-builder-guide.html
+journey-orchestration-transforms-real-time-customer-experience.html
+voice-first-is-no-longer-optional-its-structural.html
+chatbots-vs-voice-ai-healthcare-2026.html
+healthcare-scheduling-with-intelligent-automation.html
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

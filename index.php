@@ -1,0 +1,1498 @@
+<?php
+require 'includes/header.php';
+?>
+<section class="hero-pad bubble-circle home-hero-section" style="background-image:url(<?= $siteUrl; ?>/assets/img/banner-bg.webp)">
+
+   <div class="container">
+      <div class="banner-wrapper">
+         <!-- <div class="mousemove-img banner_img">
+            <img class="wow fadeInLeft" data-wow-delay=".4s" src="<?= $siteUrl; ?>/assets/img/site-banner.webp" alt=""/>
+         </div> -->
+
+         <div class="banner_img">
+            <img class="wow fadeInLeft" data-wow-delay=".4s" src="<?= $siteUrl; ?>/assets/img/conversive-hero.png" alt="" />
+         </div>
+
+         <div class="wow fadeInRight" data-wow-delay=".8s">
+            <div class="banner_content">
+               <h1>Deliver Care 24/7 with Conversive</h1>
+               <p>Guide critical care decisions with empathy and intelligence with Conversive, a leading Care
+                  Conversations AI platform</p>
+               <div class="d-flex banner-btn-wrap">
+                  <a href="https://app.beconversive.com/app/#/sign-up" target="_blank"
+                     class="btn-demo transparent-bg">
+                     <span class="btn-text">Try for free</span>
+
+                  </a>
+                  <a href="javascript:void(0);" class="btn-demo open-meeting">
+                     <span class="btn-text">Book a Demo</span>
+                     <span class="btn-icon">
+                        <img class="" data-wow-delay=".4s" src="<?= $siteUrl; ?>/assets/img/btn-arrow.svg" alt="" />
+                     </span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</section>
+<!-- banner end -->
+
+
+<!--trusted-->
+
+<section class="trusted-section">
+   <div class="container">
+      <h3 class="trusted-title">Trusted by Industry Leaders</h3>
+   </div>
+
+   <div class="owl-carousel trusted-carousel">
+      <div class="logo-item">
+         <img src="<?= $siteUrl; ?>/assets/img/AbbVie-1.svg" alt="logo">
+      </div>
+
+      <div class="logo-item">
+         <img src="<?= $siteUrl; ?>/assets/img/Affordable-2.svg" alt="logo">
+      </div>
+
+      <div class="logo-item">
+         <img src="<?= $siteUrl; ?>/assets/img/American-3.svg" alt="logo">
+      </div>
+
+      <div class="logo-item">
+         <img src="<?= $siteUrl; ?>/assets/img/Color-4.svg" alt="logo">
+      </div>
+
+      <div class="logo-item">
+         <img src="<?= $siteUrl; ?>/assets/img/mck-5.svg" alt="logo">
+      </div>
+
+      <div class="logo-item">
+         <img src="<?= $siteUrl; ?>/assets/img/United-6.svg" alt="logo">
+      </div>
+   </div>
+</section>
+
+<!-- healthcare-->
+
+<section class="healthcare-section" id="product">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Conversive is purpose-built for
+         healthcare</h2>
+      <p class="section-sub-heading">Real results. Lower costs. Infinite scale.</p>
+   </div>
+
+   <div class="convert-section">
+
+      <div class="convert-carousel owl-carousel">
+
+         <!-- Slide 1 -->
+         <div class="convert-slide">
+            <div class="healthcare-slide-inner">
+               <div class="healthcare-slide-title">
+                  <h3>Convert 4x faster</h3>
+               </div>
+               <div class="healthcare-slide-features">
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/24x7-desk.png" alt="24/7 digital front desk">
+                     </div>
+                     <div class="feature-cont">
+                        <p>24x7 Digital front desk</p>
+                     </div>
+                  </div>
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/bookings.png" alt="direct system booking">
+                     </div>
+                     <div class="feature-cont">
+                        <p>Direct system booking</p>
+                     </div>
+                  </div>
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/automated-followups.png"
+                           alt="Real-time availability & eligibility check">
+                     </div>
+                     <div class="feature-cont">
+                        <p>Real-time availability & eligibility check</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Slide 2 -->
+         <!-- <div class="convert-slide">
+                  <div class="healthcare-slide-inner">
+                     <div class="healthcare-slide-title">
+                        <h3>2X faster patient intake</h3>
+                     </div>
+                     <div class="healthcare-slide-features">
+                        <div class="feature-box">
+                           <div class="feature-icon">
+                              <img src="<?= $siteUrl; ?>/assets/img/24x7-desk.png" alt="24/7 digital front desk">
+                           </div>
+                           <div class="feature-cont">
+                              <p>24/7 Digital front desk</p>
+                           </div>
+                        </div>
+                        <div class="feature-box">
+                           <div class="feature-icon">
+                              <img src="<?= $siteUrl; ?>/assets/img/bookings.png" alt="direct system booking">
+                           </div>
+                           <div class="feature-cont">
+                              <p>Direct system booking</p>
+                           </div>
+                        </div>
+                        <div class="feature-box">
+                           <div class="feature-icon">
+                              <img src="<?= $siteUrl; ?>/assets/img/automated-followups.png" alt="automated follow-ups">
+                           </div>
+                           <div class="feature-cont">
+                              <p>Automated follow-ups</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->
+
+         <!-- Slide 3 -->
+         <div class="convert-slide">
+            <div class="healthcare-slide-inner">
+               <div class="healthcare-slide-title">
+                  <h3>50% reduced no-shows</h3>
+               </div>
+               <div class="healthcare-slide-features">
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/ai-7.svg" alt="one-click rescheduling">
+                     </div>
+                     <div class="feature-cont">
+                        <p>One-click rescheduling</p>
+                     </div>
+                  </div>
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/ai-8.svg" alt="critical case prioritization">
+                     </div>
+                     <div class="feature-cont">
+                        <p>Critical case prioritization</p>
+                     </div>
+                  </div>
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/ai-9.svg" alt="re-engagement triggers for missed appointments">
+                     </div>
+                     <div class="feature-cont">
+                        <p>Re-engagement triggers for missed appointments</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <!-- Slide 3 -->
+         <div class="convert-slide">
+            <div class="healthcare-slide-inner">
+               <div class="healthcare-slide-title">
+                  <h3>Enforce 100% compliance</h3>
+               </div>
+               <div class="healthcare-slide-features">
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/ai-10.svg" alt="HIPAA/HITECH regulated care">
+                     </div>
+                     <div class="feature-cont">
+                        <p>HIPAA/HITECH regulated care</p>
+                     </div>
+                  </div>
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/ai-11.svg" alt="encrypted, secure PHI storage">
+                     </div>
+                     <div class="feature-cont">
+                        <p>Encrypted, secure PHI storage</p>
+                     </div>
+                  </div>
+                  <div class="feature-box">
+                     <div class="feature-icon">
+                        <img src="<?= $siteUrl; ?>/assets/img/ai-12.svg" alt="EHR & CRM integrated workflows">
+                     </div>
+                     <div class="feature-cont">
+                        <p>EHR & CRM integrated workflows</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<!-- healthcare-->
+
+<section class="healthcare-section patient-sec" id="solutions">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Better patient engagement, less
+         strain on your staff</h2>
+      <p class="section-sub-heading">Conversive's all-in-one platform is built to support you at every step of the
+         care journey.</p>
+
+      <div class="patient-video">
+         <video autoplay muted loop playsinline>
+            <source src="<?= $siteUrl; ?>/assets/img/patient.mp4" type="video/mp4">
+         </video>
+      </div>
+   </div>
+
+   <div class="vertical-tabs-section" id="tabs-wrapper-vertical">
+
+      <div class="container">
+         <div class="tabs-wrapper">
+
+            <!-- LEFT NAV -->
+            <div class="tabs-nav-outer">
+               <div class="tabs-nav">
+                  <button class="tab-btn active" data-target="tab1">Patient enquiry</button>
+                  <button class="tab-btn" data-target="tab2">Patient intake</button>
+                  <button class="tab-btn" data-target="tab3">Appointment Booking</button>
+                  <button class="tab-btn" data-target="tab4">Appointment Reminder</button>
+                  <button class="tab-btn" data-target="tab5">No Show Handling</button>
+                  <button class="tab-btn" data-target="tab6">Ongoing care</button>
+                  <button class="tab-btn" data-target="tab7">Follow-up consultations</button>
+                  <button class="tab-btn" data-target="tab8">Reviews & feedback</button>
+               </div>
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="tabs-content">
+
+               <div id="tab1" class="patient-tabcontent">
+                  <!-- <div class="patient-tabcont-inner">
+                 <div class="patient-tab-details">
+                           <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>Inbound</h5> </div>
+                           <h3>Patient enquiry</h3>
+                           <p>Answer patient queries instantly, capture leads & route them to the care team.</p>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                 </div>
+                 <div class="patient-tab-img">
+                     <img src="<?= $siteUrl; ?>/assets/img/Property1.png" alt="">
+                 </div>
+
+                  
+             </div> -->
+
+                  <div class="patient-video patient-enquary">
+                     <video autoplay muted loop playsinline>
+                        <source src="<?= $siteUrl; ?>/assets/img/product/msg-popup-2a.mp4" type="video/mp4">
+                     </video>
+                  </div>
+               </div>
+
+
+
+               <div id="tab2" class="patient-tabcontent">
+                  <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <!-- <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>Inbound</h5> </div> -->
+                        <h3>Patient <br>intake</h3>
+                        <p>Collect patient data <br>securely before the visit</p>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <img src="<?= $siteUrl; ?>/assets/img/Patient-Intake.png" alt="">
+                     </div>
+                  </div>
+               </div>
+
+
+               <div id="tab3" class="patient-tabcontent">
+                  <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt="">
+                           <h5>Inbound</h5>
+                        </div>
+                        <h3>Appointment Booking</h3>
+                        <p>Enable automated appointment booking across channels.</p>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <!-- <img src="<?= $siteUrl; ?>/assets/img/audio.png" alt=""> -->
+                        <div class="patient-video">
+                           <!-- <video loop playsinline>
+                           <source src="<?= $siteUrl; ?>/assets/img/appointment-Final.mp4" type="video/mp4">
+                        </video> -->
+
+                           <!-- <div class="video-box">
+                                 <video id="demoVideo" poster="<?= $siteUrl; ?>/assets/img/audio.png">
+                                    <source src="<?= $siteUrl; ?>/assets/img/appointment-Final.mp4" type="video/mp4">
+                                 </video>
+
+                                 <div class="play-btn" id="playBtn">▶</div>
+                              </div> -->
+
+
+                           <div class="video-box">
+
+                              <video id="demoVideo" poster="<?= $siteUrl; ?>/assets/img/audio.png" playsinline>
+                                 <source src="<?= $siteUrl; ?>/assets/img/appointment-Final.mp4" type="video/mp4">
+                              </video>
+
+                              <div class="video-btn" id="videoBtn">▶</div>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
+
+               <div id="tab4" class="patient-tabcontent">
+                  <!-- <div class="patient-tabcont-inner">
+                 <div class="patient-tab-details">
+                           <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>outbound</h5> </div>
+                           <h3>Appointment Reminder</h3>
+                           <p>Reduce no-shows with timely, automated reminders.</p>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                 </div>
+                 <div class="patient-tab-img">
+                    <img src="<?= $siteUrl; ?>/assets/img/Property4.png" alt="">
+                 </div>
+             </div> -->
+
+                  <div class="patient-video patient-enquary appoint-remin">
+                     <video autoplay muted loop playsinline>
+                        <source src="<?= $siteUrl; ?>/assets/img/msg-popup-2.mp4" type="video/mp4">
+                     </video>
+                  </div>
+
+               </div>
+
+
+               <div id="tab5" class="patient-tabcontent">
+                  <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt="">
+                           <h5>Inbound</h5>
+                        </div>
+                        <h3>No Show <br>Handling</h3>
+                        <p>Re-engage no-show patients with rescheduling options.</p>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <img src="<?= $siteUrl; ?>/assets/img/No-Show-handling-Desktop.png" alt="">
+                     </div>
+                  </div>
+               </div>
+
+
+               <div id="tab6" class="patient-tabcontent">
+                  <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <!-- <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>Inbound</h5> </div> -->
+                        <h3>Ongoing <br>care</h3>
+                        <p>Share clear pre-care and post-care guidance.</p>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <img src="<?= $siteUrl; ?>/assets/img/Ongoing-care-desktop.png" alt="">
+                     </div>
+                  </div>
+               </div>
+
+
+               <div id="tab7" class="patient-tabcontent">
+                  <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <!-- <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>Inbound</h5> </div> -->
+                        <h3>Follow-up consultations</h3>
+                        <p>Continue care after visits with scheduled check-ins.</p>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <img src="<?= $siteUrl; ?>/assets/img/follow-up.png" alt="">
+                     </div>
+                  </div>
+               </div>
+
+
+               <div id="tab8" class="patient-tabcontent">
+                  <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <!-- <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>Inbound</h5> </div> -->
+                        <h3>Reviews & <br>feedback</h3>
+                        <p>Gather patient reviews & insights to improve ongoing care delivery.</p>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <img src="<?= $siteUrl; ?>/assets/img/pat-review.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- mobile tab-->
+<section class="mobile-tab">
+
+   <div class="container">
+      <div class="">
+
+         <div class="patient-tabcontent">
+            <!-- <div class="patient-tabcont-inner">
+                 <div class="patient-tab-details">
+                           <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>Inbound</h5> </div>
+                           <h3>Patient enquiry</h3>
+                           <p>Answer patient queries instantly, capture leads & route them to the care team.</p>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                 </div>
+                 <div class="patient-tab-img">
+                     <img src="<?= $siteUrl; ?>/assets/img/Property1.png" alt="">
+                 </div>
+
+                  
+             </div> -->
+
+            <!-- <div class="patient-video patient-enquary">
+                           <video autoplay muted loop playsinline>
+                              <source src="<?= $siteUrl; ?>/assets/img/msg-popup-1.mp4" type="video/mp4">
+                           </video>
+                        </div> -->
+
+            <!-- <div class="tabmobile-card tabmobile-one">
+                     <img src="<?= $siteUrl; ?>/assets/img/msg-popup-1b.png" alt="">
+                  </div> -->
+
+            <div class="patient-video patient-enquary mobenq">
+               <video autoplay muted loop playsinline>
+                  <source src="<?= $siteUrl; ?>/assets/img/msg-popup-1b.mp4" type="video/mp4">
+               </video>
+            </div>
+
+
+         </div>
+
+
+
+         <div class="patient-tabcontent">
+
+            <div class="tabmobile-card">
+               <img src="<?= $siteUrl; ?>/assets/img/patient-mob.png" alt="">
+            </div>
+
+            <!-- <div class="patient-tabcont-inner">
+                     <div class="patient-tab-details">
+                        <div class="patient-content-area">
+                           <h3>Patient <br>intake</h3>
+                           <p>Collect patient data <br>securely before the visit</p>
+                        </div>
+                        <div class="patient-social">
+                           <ul>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                              <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="patient-tab-img">
+                        <img src="<?= $siteUrl; ?>/assets/img/Pateint-intake.png" alt="">
+                     </div>
+                  </div> -->
+
+         </div>
+
+
+         <div class="patient-tabcontent">
+            <div class="patient-tabcont-inner">
+               <div class="patient-tab-details">
+                  <div class="patient-content-area">
+                     <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt="">
+                        <h5>Inbound</h5>
+                     </div>
+                     <h3>Appointment Booking</h3>
+                     <p>Enable automated appointment booking across channels.</p>
+                  </div>
+
+                  <div class="patient-social">
+                     <ul>
+                        <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                        <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                        <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="patient-tab-img">
+                  <!-- <img src="<?= $siteUrl; ?>/assets/img/audio.png" alt=""> -->
+                  <div class="patient-video">
+                     <!-- <video loop playsinline>
+                           <source src="<?= $siteUrl; ?>/assets/img/appointment-Final.mp4" type="video/mp4">
+                        </video> -->
+
+                     <!-- <div class="video-box">
+                                 <video id="demoVideo" poster="<?= $siteUrl; ?>/assets/img/audio.png">
+                                    <source src="<?= $siteUrl; ?>/assets/img/appointment-Final.mp4" type="video/mp4">
+                                 </video>
+
+                                 <div class="play-btn" id="playBtn">▶</div>
+                              </div> -->
+
+
+                     <div class="video-box">
+
+                        <video id="demoVideomob" poster="<?= $siteUrl; ?>/assets/img/audio.png" playsinline>
+                           <source src="<?= $siteUrl; ?>/assets/img/appointment-Final.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="video-btn" id="videoBtnmov">▶</div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+
+
+
+
+         <div class="patient-tabcontent">
+            <!-- <div class="patient-tabcont-inner">
+                 <div class="patient-tab-details">
+                           <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt=""><h5>outbound</h5> </div>
+                           <h3>Appointment Reminder</h3>
+                           <p>Reduce no-shows with timely, automated reminders.</p>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                 </div>
+                 <div class="patient-tab-img">
+                    <img src="<?= $siteUrl; ?>/assets/img/Property4.png" alt="">
+                 </div>
+             </div> -->
+
+            <!-- <div class="patient-video patient-enquary appoint-remin">
+                           <video autoplay muted loop playsinline>
+                              <source src="<?= $siteUrl; ?>/assets/img/msg-popup-2.mp4" type="video/mp4">
+                           </video>
+                        </div> -->
+
+            <!-- <div class="tabmobile-card">
+                     <img src="<?= $siteUrl; ?>/assets/img/tab4-mobile.png" alt="">
+                  </div> -->
+
+            <div class="patient-video patient-enquary">
+               <video autoplay muted loop playsinline>
+                  <source src="<?= $siteUrl; ?>/assets/img/popup-2-(mobile).mp4" type="video/mp4">
+               </video>
+            </div>
+
+         </div>
+
+
+         <div class="patient-tabcontent">
+
+            <!-- <div class="patient-tabcont-inner">
+                           <div class="patient-tab-details">
+                              <div class="patient-content-area">
+                                 <h3>Ongoing <br>care</h3>
+                                 <p>Share clear pre-care and post-care guidance.</p>
+                              </div>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="patient-tab-img">
+                              <img src="<?= $siteUrl; ?>/assets/img/ongoing.png" alt="">
+                           </div>
+                        </div> -->
+
+            <div class="tabmobile-card">
+               <img src="<?= $siteUrl; ?>/assets/img/Ongoing-care-Mobile.png" alt="">
+            </div>
+
+         </div>
+
+
+         <div class="patient-tabcontent">
+
+            <!-- <div class="patient-tabcont-inner">
+                           <div class="patient-tab-details">
+                              <div class="patient-content-area">
+                                 <div class="pat-cat"><img src="<?= $siteUrl; ?>/assets/img/star.svg" alt="">
+                                    <h5>Inbound</h5>
+                                 </div>
+                                 <h3>No Show <br>Handling</h3>
+                                 <p>Re-engage no-show patients with rescheduling options.</p>
+                              </div>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="patient-tab-img">
+                              <img src="<?= $siteUrl; ?>/assets/img/no-show.png" alt="">
+                           </div>
+                        </div> -->
+
+            <div class="tabmobile-card">
+               <img src="<?= $siteUrl; ?>/assets/img/tab6-mobile.png" alt="">
+            </div>
+         </div>
+
+
+         <div class="patient-tabcontent">
+
+            <!-- <div class="patient-tabcont-inner">
+                           <div class="patient-tab-details">
+                              <div class="patient-content-area">
+                                 <h3>Follow-up consultations</h3>
+                                 <p>Continue care after visits with scheduled check-ins.</p>
+                              </div>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="patient-tab-img">
+                              <img src="<?= $siteUrl; ?>/assets/img/follow-up.png" alt="">
+                           </div>
+                        </div> -->
+
+            <div class="tabmobile-card">
+               <img src="<?= $siteUrl; ?>/assets/img/tab7-mobile.png" alt="">
+            </div>
+
+         </div>
+
+
+         <div class="patient-tabcontent">
+
+            <!-- <div class="patient-tabcont-inner">
+                           <div class="patient-tab-details">
+                              <div class="patient-content-area">
+                                 <h3>Reviews & <br>feedback</h3>
+                                 <p>Gather patient reviews & insights to improve ongoing care delivery.</p>
+                              </div>
+                              <div class="patient-social">
+                                 <ul>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/whatsapp.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/message.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?= $siteUrl; ?>/assets/img/phone.svg" alt=""></a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="patient-tab-img">
+                              <img src="<?= $siteUrl; ?>/assets/img/pat-review.png" alt="">
+                           </div>
+                        </div> -->
+            <div class="tabmobile-card">
+               <img src="<?= $siteUrl; ?>/assets/img/tab8-mobile.png" alt="">
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+
+<section class="product-sec" id="product-capabilities">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Product Capabilities</h2>
+      <p class="section-sub-heading">Care conversations that improve decisions, patient experiences, and business
+         outcomes</p>
+   </div>
+
+
+   <!--tab-->
+
+   <div class="capabilities">
+
+      <!-- Tabs -->
+      <div class="cap-tabs">
+         <button class="tab active" data-index="0"> <span> One Connected Patient View </span></button>
+         <button class="tab" data-index="1"><span> Chat AI </span></button>
+         <button class="tab" data-index="2"><span> Voice AI </span></button>
+         <button class="tab" data-index="3"><span>Real-Time Performance and Growth Intelligence </span></button>
+         <button class="tab" data-index="4"><span> Healthcare-Grade Governance </span></button>
+         <button class="tab" data-index="5"><span> Structured Care Lifecycle Engine </span></button>
+         <button class="tab" data-index="6"><span> AI Agents</span></button>
+
+      </div>
+
+      <!-- Owl Slider -->
+      <div class="owl-carousel cap-slider">
+
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>One Connected Patient View</h3>
+                  <p>Conversive connects your core systems and channels into one coordinated layer.</p>
+                  <ul>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-1.png" alt=""> Syncs with CRM, EHR / EMR, PMS </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-2.png" alt=""> Enables multichannel communication via call,
+                        web chat, WhatsApp, SMS, and more</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-3.png" alt=""> Maintains a unified view of patient
+                        interactions across visits.</li>
+                  </ul>
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/One-connected-patient-view-Desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/One-connected-patient-view-Mobile.png"
+                     alt="">
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>Chat AI :Digital Front Desk and Self-Service Engine</h3>
+                  <ul>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-4.png" alt=""> 24/7 instant inquiry response & appointment
+                        booking </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-5.png" alt=""> Campaign attribution to confirmed
+                        appointments</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-6.png" alt=""> Structured patient intake & document capture
+                     </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-7.png" alt=""> Automated reminders and self-service
+                        reschedules</li>
+                  </ul>
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/Chat-AI-desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/Chat-AI-Mobile.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>Voice AI: High-Volume Call Automation & Recovery</h3>
+                  <ul>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-8.png" alt=""> Peak overflow handling </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-9.png" alt=""> Appointments, reminders, and no-show recovery
+                     </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-10.png" alt=""> Ongoing care & post‑procedure outreach</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-11.png" alt=""> Urgency detection and live escalation</li>
+                  </ul>
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/Voice-AI-desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/Voice-AI-Mobile.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>Real-Time Performance and Growth Intelligence</h3>
+                  <ul>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-12.png" alt=""> Inquiry-to-appointment conversion tracking
+                     </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-13.png" alt=""> No-show and slot utilization analytics</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-14.png" alt=""> Follow-up completion and care gap monitoring
+                     </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-15.png" alt=""> Marketing attribution to confirmed
+                        appointments</li>
+                  </ul>
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/Real-time-performance-Desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/Real-time-performance-Mobile.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>Healthcare-Grade Governance</h3>
+                  <ul>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-16.png" alt=""> Consent capture and preference tracking
+                     </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-17.png" alt=""> Secure handling of patient data</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-18.png" alt=""> Role-based access control</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-18a.png" alt=""> Audit-ready conversation logs</li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-19.png" alt=""> HIPAA-aligned (US) and DPDP-aligned (India)
+                        workflows</li>
+                  </ul>
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/Health-grade-Desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/Health-grade-Mobile.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>Structured Care Lifecycle Engine</h3>
+                  <ul>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-20.png" alt=""> Journey orchestration from inquiry to
+                        retention </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-21.png" alt=""> Automated stage-based triggers and workflows
+                     </li>
+                     <li> <img src="<?= $siteUrl; ?>/assets/img/t-icon-22.png" alt=""> Pre-visit, post-visit, acute, and chronic
+                        care journeys</li>
+                  </ul>
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/Structured-Care-Desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/Structured-Care-Mobile.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <div class="product-card">
+               <div class="conversive-content">
+                  <h3>AI Agents Across the Patient Lifecycle</h3>
+
+               </div>
+               <div class="conversive-img">
+                  <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/product/ai-agents-desktop.png" alt="">
+                  <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/mobile/ai-agents-mobile.png" alt="">
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+   <!--tab end-->
+
+</section>
+
+
+
+<!-- conversive -->
+
+<section class="conversive-sec" id="company">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Why Conversive</h2>
+      <p class="section-sub-heading">Care conversations that improve decisions, patient experiences, and business
+         outcomes</p>
+
+      <div class="conversive-card-outer">
+
+         <div class="conversive-carousel owl-carousel">
+
+            <div class="conversive-card">
+               <div class="conversive-content wow fadeInLeft" data-wow-delay=".4s">
+                  <h3>Healthcare Platform</h3>
+                  <p>Conversive is purpose-built for healthcare, grounded in 17 years of real-world understanding
+                     of
+                     Healthcare workflows. This reduces implementation risk & delivers measurable impact from day
+                     one.</p>
+               </div>
+               <div class="conversive-img conversive-imgone">
+                  <img src="<?= $siteUrl; ?>/assets/img/healthcare-platform.png" alt="Healthcare Platform">
+               </div>
+            </div>
+
+            <div class="conversive-card perso">
+               <div class="conversive-content wow fadeInRight" data-wow-delay=".4s">
+                  <h3>Trusted, Data-Driven Intelligence</h3>
+                  <p>Conversive integrates trusted external healthcare data sources into its healthcare
+                     intelligence
+                     models. This enables deeper insights, better clinical decisions and improved patient
+                     outcomes.<br>E.g. - Patient Graph / History and Symptoms chronologue</p>
+               </div>
+               <div class="conversive-img conversive-imgtwo">
+                  <img src="<?= $siteUrl; ?>/assets/img/trust-data-driven-and-intelligence.png"
+                     alt="Trusted, Data-Driven Intelligence">
+               </div>
+            </div>
+
+
+            <div class="conversive-card">
+               <div class="conversive-content wow fadeInLeft" data-wow-delay=".4s">
+                  <h3>Faster Deployment</h3>
+                  <p>Conversive accelerates deployment through pre-built integrations with EHR, pre-trained
+                     models,
+                     and built-in healthcare compliance. We orchestrate data across systems and the Patient
+                     engagement channels for Healthcare organizations go live faster with lower cost, risk, and
+                     disruption.</p>
+               </div>
+               <div class="conversive-img conversive-imgthree">
+                  <img src="<?= $siteUrl; ?>/assets/img/faster-deployment.png" alt="Faster Deployment">
+               </div>
+            </div>
+
+            <div class="conversive-card">
+               <div class="conversive-content wow fadeInRight" data-wow-delay=".4s">
+                  <h3>Easy Adoption</h3>
+                  <p>Conversive is designed for intuitive adoption across care teams, clinicians and patients.
+                     This
+                     improves engagement, reduces clinician stress, enhances quality & continuity of care.</p>
+               </div>
+               <div class="conversive-img conversive-imgfour">
+                  <img src="<?= $siteUrl; ?>/assets/img/easy-adoption.png" alt="Easy Adoption">
+               </div>
+            </div>
+
+         </div>
+
+
+      </div>
+   </div>
+</section>
+
+
+<!--enterprise-->
+<!-- <section class="enterprise-section" id="practices">
+         <div class="container">
+            <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Conversive for practices and
+               enterprises</h2>
+            <p class="section-sub-heading">Custom solutions to complement every type of care</p>
+
+            <div class="enterprise-card-wrapper">
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".2s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-1.svg" alt="">
+                  </div>
+                  <h4>Mental Health</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".3s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-2.svg" alt="">
+                  </div>
+                  <h4>IVF Centers</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".4s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-3.svg" alt="">
+                  </div>
+                  <h4>Tele-health</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".5s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-4.svg" alt="">
+                  </div>
+                  <h4>Elder Care</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".6s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-5.svg" alt="">
+                  </div>
+                  <h4>Traditional Clinics & Hospitals</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".7s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-6.svg" alt="">
+                  </div>
+                  <h4>Drug Adherence & monitoring</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".8s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-7.svg" alt="">
+                  </div>
+                  <h4>Skin</h4>
+               </div>
+
+               <div class="enterprise-card wow fadeInUp" data-wow-delay=".4s">
+                  <div class="enter-icon-circle">
+                     <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-8.svg" alt="">
+                  </div>
+                  <h4>Hair & Dental Clinics</h4>
+               </div>
+
+            </div>
+
+            <div>
+      </section> -->
+
+
+<section class="enterprise-section" id="practices">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Conversive for practices and
+         enterprises</h2>
+      <p class="section-sub-heading">Custom solutions to complement every type of care</p>
+
+      <div class="practiceing-carousel owl-carousel enterprise-card-wrapper">
+
+         <div class="practice-slide">
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".2s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-1.svg" alt="">
+               </div>
+               <h4>Mental Health</h4>
+            </div>
+
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".3s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-2.svg" alt="">
+               </div>
+               <h4>IVF Centers</h4>
+            </div>
+         </div>
+
+         <div class="practice-slide">
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".4s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-3.svg" alt="">
+               </div>
+               <h4>Tele-health</h4>
+            </div>
+
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".5s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-4.svg" alt="">
+               </div>
+               <h4>Elder Care</h4>
+            </div>
+         </div>
+
+         <div class="practice-slide">
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".6s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-5.svg" alt="">
+               </div>
+               <h4>Traditional Clinics & Hospitals</h4>
+            </div>
+
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".7s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-6.svg" alt="">
+               </div>
+               <h4>Drug Adherence & monitoring</h4>
+            </div>
+         </div>
+
+         <div class="practice-slide">
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".8s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-7.svg" alt="">
+               </div>
+               <h4>Skin</h4>
+            </div>
+
+            <div class="enterprise-card wow fadeInUp" data-wow-delay=".4s">
+               <div class="enter-icon-circle">
+                  <img src="<?= $siteUrl; ?>/assets/img/enterprise-icon-8.svg" alt="">
+               </div>
+               <h4>Hair & Dental Clinics</h4>
+            </div>
+         </div>
+
+      </div>
+
+      <div>
+</section>
+
+
+<!-- testimonial-->
+
+<section class="testimonial-wrapper" id="testimonials">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Client Success Stories</h2>
+      <p class="section-sub-heading">See how leading organizations transform their customer experience with
+         Conversive.</p>
+
+
+      <div class="testimonial-card testimonial-carousel owl-carousel">
+
+         <!--slide 1-->
+         <div class="testimonial-card-slide">
+            <!-- BioSpine Institute Logo -->
+            <div class="client-logo">
+               <div class="logo-text-wrap">
+                  <div class="logo-name">
+                     <img src="<?= $siteUrl; ?>/assets/img/bio.svg" alt="">
+                  </div>
+               </div>
+            </div>
+
+            <!-- Quote -->
+            <p class="testimonial-quote">
+               Conversive is a simple, powerful, solution for Salesforce that has become integral to our
+               day-to-day operations.
+            </p>
+
+            <!-- Author -->
+            <div class="author">
+               <div class="author-avatar">
+                  <img src="<?= $siteUrl; ?>/assets/img/author.png" alt="">
+               </div>
+               <div class="author-info">
+                  <div class="author-name">Martin McCauley</div>
+                  <div class="author-title">Director of Patient Services,<br>BioSpine Institute</div>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+</section>
+
+
+<!-- enterprise -->
+
+<section class="enterprise-section resources-sec" id="resources">
+   <div class="container">
+      <h2 class="section-title healthcare-title wow fadeInUp" data-wow-delay=".4s">Check out the resources</h2>
+      <p class="section-sub-heading">Enhance your patient experience with real-world insights, expert tips, and
+         actionable guides.</p>
+   </div>
+
+
+   <div class="resources-carousel owl-carousel">
+
+      <div class="resource-slide">
+         <div class="resource-card">
+            <div class="card-image">
+               <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/Desktop-case-study-1.png" alt="">
+               <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/re-mobile/mobile-case-study-1.png" alt="">
+            </div>
+
+            <div class="card-content">
+               <h3>
+                  Use Conversational Text Messaging for Wellness Tips
+               </h3>
+
+               <p>
+                  Use conversational text messaging to share wellness tips for a
+                  powerful, simple way to show your clients you care about them.
+               </p>
+
+               <a href="javascript:void(0);" class="download-btn"
+                  data-pdf="https://go.beconversive.com/hubfs/Case%20Study_Use%20Conversational%20Text%20Messaging.pdf"
+                  data-title="Case Study | Conversational Text Messaging (Conversive.ai)">Download</a>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="resource-slide">
+         <div class="resource-card">
+            <div class="card-image">
+               <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/Desktop-case-study-2.jpg" alt="">
+               <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/re-mobile/mobile-case-study-2.jpg" alt="">
+            </div>
+
+            <div class="card-content">
+               <h3>
+                  Reach More Prospects with Personal Health Product Promotions
+               </h3>
+
+               <p>
+                  Text messaging makes it simple to reach out to clients and patients with personalized
+                  promotional offers for products, discounted services and more.
+               </p>
+
+               <a href="javascript:void(0);" class="download-btn"
+                  data-pdf="https://go.beconversive.com/hubfs/Case%20Study_Reach%20More%20Prospects.pdf"
+                  data-title="Case Study | Reach More Prospects (Conversive.ai)">Download</a>
+            </div>
+
+         </div>
+      </div>
+
+
+
+      <div class="resource-slide">
+         <div class="resource-card">
+            <div class="card-image">
+               <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/Desktop-case-study-3.png" alt="">
+               <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/re-mobile/mobile-case-study-3.png" alt="">
+            </div>
+
+            <div class="card-content">
+               <h3>
+                  Convenient Healthcare Scheduling with Conversive Text Messaging
+               </h3>
+
+               <p>
+                  Use messaging to set appointments, reschedule and remind patients about necessary documents to
+                  increase satisfaction.
+               </p>
+
+               <a href="javascript:void(0);" class="download-btn"
+                  data-pdf="https://go.beconversive.com/hubfs/Case%20Study_Healthcare%20Scheduling.pdf"
+                  data-title="Case Study | Healthcare Scheduling (Conversive.ai)">Download</a>
+            </div>
+
+         </div>
+      </div>
+
+
+      <div class="resource-slide">
+         <div class="resource-card">
+            <div class="card-image">
+               <img class="f-desk" src="<?= $siteUrl; ?>/assets/img/Desktop-case-study-4.png" alt="">
+               <img class="m-mobile" src="<?= $siteUrl; ?>/assets/img/product/re-mobile/mobile-case-study-4.png" alt="">
+            </div>
+
+            <div class="card-content">
+               <h3>
+                  Improving Patient Communication with Text Messaging
+               </h3>
+
+               <p>
+                  Communicate about notifications and updates concerning lab work, new products and supplements or
+                  services becoming available and other important updates.
+               </p>
+
+               <a href="javascript:void(0);" class="download-btn"
+                  data-pdf="https://go.beconversive.com/hubfs/Case%20Study_Improving%20Patient%20Communications.pdf"
+                  data-title="Case Study | Improving Patient Communications (Conversive.ai)">Download</a>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<?php push('scripts'); ?>
+<script src="<?= $siteUrl; ?>/assets/js/home.js"></script>
+<script>
+   $(document).ready(function() {
+
+      const $slider = $(".cap-slider");
+
+      $slider.owlCarousel({
+         items: 1,
+         margin: 60,
+         loop: false,
+         nav: false,
+         dots: false,
+         smartSpeed: 600,
+         autoHeight: true,
+         responsive: {
+            0: {
+               items: 1,
+               stagePadding: 40,
+               margin: 20
+            },
+            768: {
+               items: 1,
+               stagePadding: 20,
+               margin: 20,
+            },
+            1700: {
+               items: 1,
+               stagePadding: 250,
+               margin: 140,
+            }
+         }
+      });
+
+      // TAB CLICK → CHANGE SLIDE
+      $(".tab").on("click", function() {
+         let index = $(this).data("index");
+
+         $slider.trigger("to.owl.carousel", [index, 600]);
+
+         setActiveTab(index);
+      });
+
+      // SLIDE CHANGE → UPDATE TAB
+      $slider.on("changed.owl.carousel", function(event) {
+         let index = event.item.index;
+         setActiveTab(index);
+      });
+
+      function setActiveTab(index) {
+         $(".tab").removeClass("active");
+         $('.tab[data-index="' + index + '"]').addClass("active");
+      }
+
+   });
+
+   function setEqualHeight() {
+      let maxHeight = 0;
+
+      $('.cap-slider .owl-item').each(function() {
+         $(this).css('height', 'auto');
+         let h = $(this).height();
+         if (h > maxHeight) maxHeight = h;
+      });
+
+      $('.cap-slider .owl-item').height(maxHeight);
+   }
+
+   $(document).ready(function() {
+      setEqualHeight();
+      $(window).on('resize', setEqualHeight);
+   });
+</script>
+
+<script src="//js.hsforms.net/forms/embed/v2.js"></script>
+
+<script>
+   (function() {
+
+      let selectedPDF = "";
+      const pdfModal = document.getElementById("pdfModal");
+
+      // Load HubSpot form only once
+      function loadHubspotForm() {
+         if (!window.formLoaded) {
+            hbspt.forms.create({
+               portalId: "23684475",
+               formId: "f2bc0490-325f-40d9-a971-6d047e6b9ae5",
+               region: "na1",
+               target: "#hubspotForm",
+
+               onFormSubmitted: function() {
+                  const formContainer = document.getElementById("hubspotForm");
+
+                  // Step 1: Try auto open
+                  const newTab = window.open(selectedPDF, "_blank");
+
+                  // Step 2: Show proper UI
+                  formContainer.innerHTML = `
+                        <p style="margin-bottom:10px;">Your download is ready.</p>
+
+                        <button id="downloadNowBtn" style="margin-top:10px;">
+                           Download PDF
+                        </button>
+
+                        <p style="font-size:12px;color:#666;margin-top:8px;">
+                           If download didn’t start automatically, click the button above.
+                        </p>
+                     `;
+
+                  // Step 3: Manual fallback (guaranteed)
+                  document.getElementById("downloadNowBtn").addEventListener("click", function() {
+                     window.open(selectedPDF, "_blank");
+                  });
+
+                  // Step 4: Close modal AFTER user sees option
+                  setTimeout(() => {
+                     const pdfModal = document.getElementById("pdfModal");
+                     if (pdfModal) {
+                        pdfModal.style.display = "none";
+                        pdfModal.setAttribute("aria-hidden", "true");
+                     }
+                  }, 4000); // give user time
+               }
+            });
+
+            window.formLoaded = true;
+         }
+      }
+
+      // OPEN MODAL
+      document.querySelectorAll(".download-btn").forEach(btn => {
+         btn.addEventListener("click", function() {
+            selectedPDF = this.getAttribute("data-pdf");
+            pdfModal.style.display = "block";
+            pdfModal.setAttribute("aria-hidden", "false");
+
+            loadHubspotForm();
+         });
+      });
+
+      // CLOSE MODAL (for ALL elements with data-close)
+      pdfModal.querySelectorAll("[data-close]").forEach(el => {
+         el.addEventListener("click", function() {
+            pdfModal.style.display = "none";
+            pdfModal.setAttribute("aria-hidden", "true");
+         });
+      });
+
+   })();
+</script>
+<?php endpush(); ?>
+<?php
+require 'includes/footer.php';
+?>
