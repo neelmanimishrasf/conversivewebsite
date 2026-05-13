@@ -36,6 +36,13 @@
     Access-Control-Allow-Origin = "*"
     Cache-Control = "public, max-age=86400"
 
+# Blog clean URLs: /blog/slug → /slug (htaccess is ignored on Netlify)
+[[redirects]]
+  from = "/blog/:slug"
+  to = "/:slug"
+  status = 301
+  force = true
+
 # /index.md — allow agents to fetch homepage as markdown via URL
 [[redirects]]
   from = "/index.md"
