@@ -10,6 +10,25 @@ require 'includes/header.php';
 
       <div class="blogs-section-area">
 
+         <a href="<?= $siteUrl; ?>/blog/conversational-ai-patient-engagement-healthcare" class="resource-card">
+            <div class="card-image">
+               <img src="<?= $siteUrl; ?>/assets/img/conversational-ai-patient-engagement-healthcare.png" alt="How Conversational AI Is Changing Patient Engagement in Healthcare">
+            </div>
+
+            <div class="card-content">
+               <h3>
+                  How Conversational AI Is Changing Patient Engagement in Healthcare
+               </h3>
+
+               <p>
+                  Discover how conversational AI is reshaping patient engagement in healthcare through personalized communication, transparency, human oversight, and trust-driven AI experiences.
+               </p>
+
+
+            </div>
+
+         </a> <!--card end-->
+
          <a href="<?= $siteUrl; ?>/blog/chatbots-vs-voice-ai-healthcare-2026" class="resource-card">
             <div class="card-image">
                <img src="<?= $siteUrl; ?>/assets/img/chatbots-vs-voice-ai-healthcare-2026.jpg" alt="Chatbots vs. Voice AI: What Patients Actually Want in 2026">
