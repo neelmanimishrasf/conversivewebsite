@@ -61,6 +61,7 @@ PAGES=(
     "voice-first-is-no-longer-optional-its-structural.php:voice-first-is-no-longer-optional-its-structural.html"
     "chatbots-vs-voice-ai-healthcare-2026.php:chatbots-vs-voice-ai-healthcare-2026.html"
     "healthcare-scheduling-with-intelligent-automation.php:healthcare-scheduling-with-intelligent-automation.html"
+    "conversational-ai-patient-engagement-healthcare.php:conversational-ai-patient-engagement-healthcare.html"
 )
 
 SUCCESS=0
