@@ -48,6 +48,17 @@ echo ""
 # ---------------------------------------------------------------------------
 echo "🔄 Rendering PHP pages to HTML..."
 
+# ---------------------------------------------------------------------------
+# ⚠️  IMPORTANT: Every new .php page/blog post MUST be added to this list.
+#     If a .php file is not listed here, Netlify will NOT render it to HTML
+#     and the page will return a 404 in production.
+#
+#     Format: "source-file.php:output-file.html"
+#     The slug (output filename without .html) becomes the page URL.
+#
+#     Example — adding a new blog post called "my-new-article.php":
+#         "my-new-article.php:my-new-article.html"
+# ---------------------------------------------------------------------------
 # Pages to render: source.php → output.html
 PAGES=(
     "index.php:index.html"
