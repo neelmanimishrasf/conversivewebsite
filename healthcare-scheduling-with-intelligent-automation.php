@@ -11,7 +11,7 @@ require 'includes/header.php';
       <div class="blog-single-inner">
          <!-- Left Image -->
          <div class="hero-image">
-            <img src="<?= $siteUrl; ?>/assets/img/healthcare-scheduling-with-intelligent-automation.jpg" alt="Fixing the Healthcare Scheduling Experience with Intelligent Automation">
+            <img src="<?= $siteUrl; ?>/assets/img/healthcare-scheduling-with-intelligent-automation.png" alt="Fixing the Healthcare Scheduling Experience with Intelligent Automation">
          </div>
 
          <!-- Right Content -->

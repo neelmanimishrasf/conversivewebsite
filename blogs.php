@@ -50,7 +50,7 @@ require 'includes/header.php';
 
          <a href="<?= $siteUrl; ?>/blog/healthcare-scheduling-with-intelligent-automation" class="resource-card">
             <div class="card-image">
-               <img src="<?= $siteUrl; ?>/assets/img/healthcare-scheduling-with-intelligent-automation.jpg" alt="Fixing the Healthcare Scheduling Experience with Intelligent Automation">
+               <img src="<?= $siteUrl; ?>/assets/img/healthcare-scheduling-with-intelligent-automation.png" alt="Fixing the Healthcare Scheduling Experience with Intelligent Automation">
             </div>
 
             <div class="card-content">
