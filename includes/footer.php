@@ -86,7 +86,7 @@ require 'cta-section.php';
     <div class="footer-inner">
       <div class="footer-brand">
         <a href="<?= $siteUrl; ?>" class="logo">
-          <img src="<?= $siteUrl; ?>/assets/img/conversive-formerly-logo.svg" alt="conversive">
+          <img src="<?= $siteUrl; ?>/assets/img/conversive.svg" alt="conversive">
         </a>
 
       </div>
@@ -112,7 +112,7 @@ require 'cta-section.php';
 
 <div class="container">
   <div class="footcopy-two">
-    <p>Screen Magic Mobile Media Pvt Ltd | © 2026, All Rights Reserved</p>
+    <p>Copyright © 2025, Screen-Magic Mobile Media Pvt. Ltd. All Rights Reserved.</p>
   </div>
 </div>
 

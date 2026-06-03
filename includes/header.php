@@ -63,7 +63,7 @@ $siteUrl = Env::get('APP_URL');
       <div class="col-12 d-flex flex-wrap align-items-center justify-content">
         <div class="logo-box">
           <a href="<?= $siteUrl; ?>">
-            <img src="<?= $siteUrl; ?>/assets/img/conversive-formerly-logo.svg" alt="conversive" />
+            <img src="<?= $siteUrl; ?>/assets/img/conversive.svg" alt="conversive" />
           </a>
         </div>
 

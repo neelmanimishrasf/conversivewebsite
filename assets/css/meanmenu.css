@@ -144,9 +144,11 @@
     padding: 4px 0 3px;
 }
 .aw-header-area .logo-box {
-	max-width: 250px;
-	width: 100%;
 	margin-right: 35px;
+}
+.aw-header-area .logo-box img {
+	width: 100%;
+	max-width: 250px;
 }
 .aw-header-area .logo-box a {
 	display: inline-block;
